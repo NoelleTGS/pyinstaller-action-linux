@@ -1,4 +1,4 @@
-FROM jackmckew/pyinstaller-linux:3.10
+FROM noelletgs:pyinstaller-linux:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
