@@ -1,4 +1,4 @@
-FROM noelletgs:pyinstaller-linux:latest
+FROM noelletgs/pyinstaller-linux:latest
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
